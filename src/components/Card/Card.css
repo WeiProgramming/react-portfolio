@@ -1,0 +1,83 @@
+.card {
+    top: -45px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-main p{
+    color: #999;
+    line-height: 1.5em;
+}
+
+.section-header {
+    padding: 7% 15%;
+    margin-bottom: 5%;
+}
+
+
+.about-me {
+    background: radial-gradient(ellipse at center,#585858 0,#232323 100%);
+}
+
+.dark {
+    color: white;
+}
+
+.prof-card {
+    top: -20%;
+    left: 15%;
+    padding: 2%;
+}
+
+.prof-desc {
+    padding: 10%;
+    font-size: 1.2rem;
+}
+
+:hover.company-card {
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.skills {
+    position: relative;
+}
+
+@keyframes floatupdown {
+    from {top: -350px;}
+    to {top: -330px;}
+}
+
+.skills .image-floater {
+    position: absolute;
+    top: -350px;
+    left: -35px;
+    animation-name: floatupdown;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.company-card {
+    align-items: center;
+    display: flex;
+}
+
+.white {
+    color: white;
+}
+
+.radial-black {
+    background: radial-gradient(ellipse at center,#585858 0,#232323 100%);
+}
+
+.contact-container {
+    padding: 5%;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+}

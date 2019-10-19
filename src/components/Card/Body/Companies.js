@@ -1,12 +1,14 @@
 import React from 'react';
 import {Card, Container, Row, Col, Button, Popover, OverlayTrigger} from 'react-bootstrap';
+import { useSpring, animated } from 'react-spring'
+
 
 import CompanyImages from '../../../assets/companyImages';
 
 import {CostcoPopover, SwiftChangePopover, SmartPropertyPopover, RightDevicePopover} from "../../Popovers/Company/Company";
 
-
 const CompanyCardBody = () => {
+
 
     return (
         <Card.Body className="companies">

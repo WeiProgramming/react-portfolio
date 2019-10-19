@@ -9,7 +9,6 @@ import Nav from './components/Nav/Nav';
 import Landing from './components/Landing/Landing';
 import CardItem from './components/Card/Card';
 
-
 const App = () => {
     return (
         <div className="app">

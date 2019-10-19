@@ -8,6 +8,21 @@
 .app {
     overflow-x: hidden;
 }
+
+.landing {
+    background-image: url("https://images.unsplash.com/photo-1501618423058-ac1c9b4b32a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,rgba(0, 0, 0,.88),rgba(67, 5, 255, 0.31));
+}
 .navigation {
     position: fixed;
     z-index: 100;
@@ -25,12 +40,15 @@
     color: white;
     font-weight: bolder;
 }
-.landing {
-    background-image: url("https://images.unsplash.com/photo-1501618423058-ac1c9b4b32a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 90vh;
     background-size: cover;
     background-position: center;
-    height: 95vh;
-    position: relative;
+    will-change: opacity;
 }
 
 .overlay {
@@ -60,6 +78,10 @@
 .card {
     top: -45px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-main {
+    margin-top: 650px;
 }
 
 .card-main p{

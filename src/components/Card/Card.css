@@ -47,13 +47,12 @@
 }
 
 @keyframes floatupdown {
-    from {top: -350px;}
-    to {top: -330px;}
+    from {top: -250px;}
+    to {top: -230px;}
 }
 
 .skills .image-floater {
     position: absolute;
-    top: -350px;
     left: -35px;
     animation-name: floatupdown;
     animation-duration: 1.5s;

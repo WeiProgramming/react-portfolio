@@ -1,9 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import './Landing.css';
-import {Badge} from 'react-bootstrap';
+import {Badge, Modal, Button} from 'react-bootstrap';
 import { useSpring, useTransition, animated, config } from 'react-spring'
 import {Transition} from 'react-spring/renderprops'
 import Wallpaper from '../../assets/wallpapers';
+import PDF from 'react-pdf-js';
+import { Document, Page } from 'react-pdf';
+import pdfs from "../../assets/pdfs/Pdfs";
 
 
 const slides = [
@@ -16,21 +19,17 @@ const slides = [
 
 const Landing = () => {
     const [index, setIndex] = useState(0);
+    const [show, setShow] = useState(false);
+
     const transitions = useTransition(slides[index], slides[index].id, {
         from: { opacity: 0 },
         enter: { opacity: 1 },
         leave: { opacity: 0 },
         config: config.molasses,
     });
-    // const props = useSpring({opacity: 1, from: {opacity: 0}});
-    // let i = -1;
-    // useEffect(() => {
-    //     setInterval(() => {
-    //         i++;
-    //         setbgImg(slides[(i)%4].url);
-    //     }, 3000)
-    // }, [])
-    useEffect(() => void setInterval(() => setIndex(state => (state + 1) % 5), 2000), []);
+    // const handleClose = () => setShow(false);
+    // const handleShow = () => setShow(true);
+    useEffect(() => void setInterval(() => setIndex(state => (state + 1) % 5), 4000), []);
 
     return (
         transitions.map(({ item, props, key}) => (
@@ -46,7 +45,26 @@ const Landing = () => {
                 <div className="description-box">
                     <h1>Wei | Programming <Badge variant="secondary">DEV</Badge></h1>
                     <p>Passion . Reality . Creation</p>
+                    <a href={pdfs.resume} className="btn btn-lg btn-outline-light">Resume</a>
                 </div>
+                {/*<Modal show={show} onHide={handleClose}>*/}
+                    {/*<Modal.Header closeButton>*/}
+                        {/*<Modal.Title>Modal heading</Modal.Title>*/}
+                    {/*</Modal.Header>*/}
+                    {/*<Modal.Body>*/}
+                        {/*<iframe src={pdfs.resume} title="title">*/}
+                            {/*Press me: <a href={pdfs.resume}>Download PDF</a>*/}
+                        {/*</iframe>*/}
+                    {/*</Modal.Body>*/}
+                    {/*<Modal.Footer>*/}
+                        {/*<Button variant="secondary" onClick={handleClose}>*/}
+                            {/*Close*/}
+                        {/*</Button>*/}
+                        {/*<Button variant="primary" onClick={handleClose}>*/}
+                            {/*Save Changes*/}
+                        {/*</Button>*/}
+                    {/*</Modal.Footer>*/}
+                {/*</Modal>*/}
             </animated.div>
         ))
         // transitions.map(({ item, props, key }) => (

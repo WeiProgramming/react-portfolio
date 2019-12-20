@@ -58,7 +58,7 @@ const Skills = () => {
                     </Col>
                     <Col md={6}>
                         <div className="image-floater d-none d-md-block">
-                            <img src="https://demos.creative-tim.com/marketplace/material-kit-pro/assets/assets-for-demo/cards-test.png"
+                            <img src="https://demos.creative-tim.com/get-shit-done-pro/assets/img/presentation/perspective_cards.png"
                                  alt="image floater"/>
                         </div>
                     </Col>

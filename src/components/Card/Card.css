@@ -17,11 +17,6 @@
     margin-bottom: 5%;
 }
 
-
-.about-me {
-    background: radial-gradient(ellipse at center,#585858 0,#232323 100%);
-}
-
 .dark {
     color: white;
 }
@@ -47,8 +42,8 @@
 }
 
 @keyframes floatupdown {
-    from {top: -250px;}
-    to {top: -230px;}
+    from {top: -120px;}
+    to {top: -90px;}
 }
 
 .skills .image-floater {
@@ -68,10 +63,6 @@
 
 .white {
     color: white;
-}
-
-.radial-black {
-    background: radial-gradient(ellipse at center,#585858 0,#232323 100%);
 }
 
 .contact-container {

@@ -152,6 +152,9 @@ a:link, a:visited {
     cursor: pointer;
     display: block;
 }
+.company-card {
+  margin-bottom: 15px; }
+
 .about-me {
   position: relative;
   width: 100%;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card, Container, Row, Col, Button, Popover, OverlayTrigger} from 'react-bootstrap';
 import { useSpring, animated } from 'react-spring'
-
+import './Companies.scss';
 
 import CompanyImages from '../../../assets/companyImages';
 

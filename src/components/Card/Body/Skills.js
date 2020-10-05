@@ -25,10 +25,10 @@ const Skills = () => {
                             </h2>
                             <p>
                                 I'm passionate with development and learning
-                                new skills to utilize in the my to day life.
+                                new skills to utilize in the my day-to-day life.
                                 An eye for detail clean and clear code is what I
                                 strive for. Below are the frameworks and libraries I've
-                                used for work and client projects.
+                                used for both work and client projects.
                             </p>
                         </div>
                         <Row>

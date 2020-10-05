@@ -155,7 +155,8 @@ a:link, a:visited {
 .about-me {
   position: relative;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  transition: p 0.8s ease-in-out; }
   .about-me p {
     color: #ffffff; }
   .about-me .about-me-overlay {
@@ -175,6 +176,8 @@ a:link, a:visited {
     background-image: url("/boxing.25525879.jpg"); }
   .about-me.foody-bg {
     background-image: url("/foody.29081098.jpg"); }
+  .about-me.programming-bg {
+    background-image: url("/coding.97d62fd5.jpg"); }
   .about-me .about-icons {
     text-align: center;
     margin-top: 5%; }

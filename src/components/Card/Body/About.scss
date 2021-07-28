@@ -1,75 +1,83 @@
 .about-me {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: p 0.8s ease-in-out;
+  p {
+    color: #ffffff;
+  }
+  .about-me-overlay {
+    position: absolute;
     height: 100%;
-    transition: p 0.8s ease-in-out;
-    p {
-        color: #ffffff;
-    }
-    .about-me-overlay {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-    &.bg {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        -webkit-transition: background-image 0.8s ease-in-out;
-        transition: background-image 0.8s ease-in-out;
-    }
-    &.stocks-bg {
-        background-image: url("../../../assets/about/stocks.jpg");
-    }
-    &.boxing-bg {
-        background-image: url("../../../assets/about/boxing.jpg");
-    }
-    &.foody-bg {
-        background-image: url("../../../assets/about/foody.jpg");
-    }
-    &.programming-bg {
-        background-image: url("../../../assets/about/coding.jpg");
-    }
-    .about-icons {
-        text-align: center;
-        margin-top: 5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  &.bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-transition: background-image 0.8s ease-in-out;
+    transition: background-image 0.8s ease-in-out;
+  }
+  &.stocks-bg {
+    background-image: url('../../../assets/about/stocks.jpg');
+  }
+  &.boxing-bg {
+    background-image: url('../../../assets/about/boxing.jpg');
+  }
+  &.foody-bg {
+    background-image: url('../../../assets/about/foody.jpg');
+  }
+  &.programming-bg {
+    background-image: url('../../../assets/about/coding.jpg');
+  }
+  .about-icons {
+    text-align: center;
+    margin-top: 5%;
 
-        .outer-btn {
-            background: #8e9eab; /* fallback for old browsers */
-            background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab); /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(
-                to top,
-                #eef2f3,
-                #8e9eab
-            ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    .outer-btn {
+      background: #8e9eab; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to top,
+        #eef2f3,
+        #8e9eab
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to top,
+        #eef2f3,
+        #8e9eab
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-            border: none;
-            .inner-btn {
-                background: #2193b0; /* fallback for old browsers */
-                background: -webkit-linear-gradient(to top, #6dd5ed, #2193b0); /* Chrome 10-25, Safari 5.1-6 */
-                background: linear-gradient(
-                    to top,
-                    #6dd5ed,
-                    #2193b0
-                ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      border: none;
+      .inner-btn {
+        background: #2193b0; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to top,
+          #6dd5ed,
+          #2193b0
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to top,
+          #6dd5ed,
+          #2193b0
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-                border: none;
-                svg {
-                    color: #ffffff;
-                }
-            }
+        border: none;
+        svg {
+          color: #ffffff;
         }
+      }
     }
-    .about-me-tab-container {
-        padding-top: 5%;
-        .about-me-tab-title {
-            margin-bottom: 25px;
-            text-transform: uppercase;
-        }
-        .about-me-tabs {
-            justify-content: center;
-            margin-bottom: 25px;
-        }
+  }
+  .about-me-tab-container {
+    padding-top: 5%;
+    .about-me-tab-title {
+      margin-bottom: 25px;
+      text-transform: uppercase;
     }
+    .about-me-tabs {
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+  }
 }

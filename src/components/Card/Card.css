@@ -1,77 +1,100 @@
 .card {
-    top: -45px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  top: -45px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .card-main {
-    margin-top: 650px;
+  top: -150px;
 }
 
-.card-main p{
-    color: #999;
-    line-height: 1.5em;
+.card-main p {
+  color: #999;
+  line-height: 1.5em;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.prof-card .card-body .card-text {
+  color: black;
 }
 
 .section-header {
-    padding: 7% 15%;
-    margin-bottom: 5%;
+  padding: 7% 15%;
+  margin-bottom: 5%;
 }
 
 .dark {
-    color: white;
+  color: white;
+}
+
+.tab-content {
+  height: 400px;
+  overflow-y: scroll;
 }
 
 .prof-card {
-    top: -20%;
-    left: 15%;
-    padding: 2%;
+  left: 10%;
+  padding: 2%;
 }
 
 .prof-desc {
-    padding: 10%;
-    font-size: 1.2rem;
+  padding: 10%;
+  font-size: 1.2rem;
 }
 
 :hover.company-card {
-    transition: .3s ease-in-out;
-    transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
 }
 
 .skills {
-    position: relative;
+  position: relative;
 }
 
 @keyframes floatupdown {
-    from {top: -120px;}
-    to {top: -90px;}
+  from {
+    top: -120px;
+  }
+  to {
+    top: -90px;
+  }
 }
 
 .skills .image-floater {
-    position: absolute;
-    left: -35px;
-    animation-name: floatupdown;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
+  position: absolute;
+  left: -105px;
+  margin-top: 10%;
+  animation-name: floatupdown;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  left: -159px;
+  margin-top: 73%;
 }
 
+.skills .image-floater > img {
+  max-width: 180%;
+}
 .company-card {
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 
 .white {
-    color: white;
+  color: white;
 }
 
 .contact-container {
-    padding: 5%;
+  padding: 5%;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    display: block;
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  display: block;
 }

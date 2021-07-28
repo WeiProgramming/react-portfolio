@@ -1,18 +1,23 @@
 .app {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
-.landing {
-    background-image: url("https://images.unsplash.com/photo-1501618423058-ac1c9b4b32a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
-    background-size: cover;
-    background-position: center;
-    height: 95vh;
-    position: relative;
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(45deg,rgba(0, 0, 0,.88),rgba(67, 5, 255, 0.31));
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

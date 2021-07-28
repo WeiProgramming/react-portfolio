@@ -47,46 +47,25 @@ const About = () => {
                         >
                             <Tab eventKey="stocks-bg" title="Stocks">
                                 <p>
-                                    The idea of investing came in mind when I wanted to find a way to become financially free in the future, the thought of passive income and financial growth
-                                    was very interesting to me. I began my investing during my second year of college, just like anyone else, I was naive and got enticed to the "get rich quick" 
-                                    scheme. Jumped into penny stocks and lost 2/3s of my capital so that's when I gave up on that and decided to put the rest of my money into crypto currency 
-                                    because during this time, bitcoin began to boom.
-
-                                    I put what's left of the last of the 1/3 into an altcoin called <a href="https://litecoin.org/" aria-label="litecoin link">Litecoin</a>, 
-                                    I figured that since bitcoin was booming, that the other altcoins would soon follow. So I made that investment, and decided to just let that money
-                                    sit there and put it ready to lose. Needless to say, my prediction of altcoins following bitcoin was correct, and my investments grew 1900%! That's 
-                                    when it kickstarted my love and importance of understanding finance and investments. 
-
-                                    As of now, I like to swing and day trade on my free time while the market is open. I base most of my trades with technical analysis strategies on 
-                                    various stocks and forex markets in the US.
+                                    I started my first brokerage account in 2015 and I've been trading different areas of the market from stocks to crypto currency. My obsession with "building wealth through other means" has always driven me, so it's no surprise that day one for me was all about looking at graphs and charts on a screen.
                                 </p>
                             </Tab>
                             <Tab eventKey="programming-bg" title="Coding">
                                 <p>
-                                    I strive to learn and create, my goal is to be full stack
-                                    developer one day. I'm a go-getter and know what I want. I enjoy
-                                    challenging myself everyday and being out of my comfort zone. I'm highly
-                                    adaptable and capable of getting work done. I enjoy helping my peers
-                                    and making them laugh. In my career, I've had the greatest to try out
-                                    and implement modern technologies for companies as well as clients. From backend
-                                    like Laravel to front end frameworks like Angular and React.
-                                </p>
+I knew I wanted to be a computer programmer from the time in elementary school when my dad brought home our first PC. Now, as an adult with more than 10 years of programming experience under my belt and a degree in Computer Science Engineering Techology, nothing has changed about how much enjoyment it provides me; if anything that feeling just grows stronger each day.
+
+I was always fascinated by computers at an early age because they represented freedom--the ability for humans to create whatever we can imagine without limitations or boundaries set on us by other people's rules--so naturally once college rolled around this interest became even greater and inspired one of the most life-changing decisions I've ever made: The decision to major in computer science so that someday soon enough                                </p>
                             </Tab>
                             <Tab eventKey="boxing-bg" title="Boxing">
                                 <p>
-                                    I joined a boxing gym doing both classes and personal workouts. I've been boxing since August 2020
-                                    For me, boxing has been a good sport to help promote both a healthy mind and physical lifestyle.
+                                    Boxing has always been a sport that I loved both playing and watching. For me, boxing is an excellent way to achieve my goals of "healthy mind and physical lifestyle."
+
+I joined the gym in August 2020 doing both classes and personal workouts for myself. My favorite thing about it so far has been how many different types of people are there: from kids as young as six years old who just love learning new moves or getting their energy out, to adults looking for some friendly competition with other like-minded athletes!
                                 </p>
                             </Tab>
                             <Tab eventKey="foody-bg" title="Foody">
                                 <p>
-                                    Food speaks a thousand words, I love to try different types of food for their taste. When I find a monthly favorite,
-                                    you can find me try different spot around the city looking for what I believe is the best tasting of that kind.
-                                    My recent favorite has been <a href="https://onolicioushawaii.com/what-is-poke/" aria-label="poke link">Poke</a>.
-                                    Which I proceeded to research different hot poke spots through yelp, tried about 7 different before I could find the best
-                                    location that resembled that of authentic Hawaiian poke. Don't worry, I've already done the travelling and research
-                                    and the restaurant is called <a href="https://www.yelp.com/biz/its-raw-poke-shop-san-diego" aria-label="it's raw poke link">It's Raw</a>.
-                                    You can thank me later.
+                                    You know you're a foodie when it's not enough to try just one place. The search for the next best bite is constantly on your mind as new monthly favorites come and go, waiting impatiently until they can find that perfect taste again.
                                 </p>
                             </Tab>
                         </Tabs>

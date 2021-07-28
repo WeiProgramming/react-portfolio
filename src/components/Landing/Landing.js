@@ -7,6 +7,7 @@ import { Document, Page } from 'react-pdf'
 import pdfs from '../../assets/pdfs/Pdfs'
 import heroVideo from '../../assets/videos/working-bg.mp4'
 import heroTabletVideo from '../../assets/videos/working-tablet.mp4'
+import Typer from '../Utils/typer'
 
 const Landing = () => {
   const [index, setIndex] = useState(0)
@@ -28,7 +29,8 @@ const Landing = () => {
       <div className="overlay"></div>
       <div className="description-box">
         <h1>
-          Wei | Programming <Badge variant="secondary">DEV</Badge>
+          Wei | <Typer></Typer>
+          <Badge variant="secondary">DEV</Badge>
         </h1>
         <p>Passion . Reality . Creation</p>
         <a href={pdfs.resume} className="btn btn-lg btn-outline-light">

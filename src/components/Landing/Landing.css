@@ -1,3 +1,13 @@
+@keyframes blink {
+  from {
+    background-color: gray;
+  }
+  to {
+    background-color: white;
+    color: black;
+  }
+}
+
 .landing {
   height: 60vh;
   position: relative;
@@ -44,4 +54,9 @@
 .description-box p {
   font-size: 1.5em;
   font-weight: bold;
+}
+
+.badge-secondary {
+  margin-left: 5%;
+  animation: blink 1s infinite alternate;
 }

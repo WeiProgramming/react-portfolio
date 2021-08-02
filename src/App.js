@@ -12,7 +12,7 @@ import CardItem from './components/Card/Card';
 const App = () => {
     return (
         <div className="app">
-            {/*<Nav/>*/}
+            <Nav/>
             <Landing/>
             <Container>
                 <CardItem/>

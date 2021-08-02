@@ -32,7 +32,7 @@ const Typer = () => {
       } else {
         clearInterval(createWord)
       }
-    }, 200)
+    }, 300)
   }, [currentWord])
 
   const makeWord = (i) => {

@@ -21,7 +21,7 @@ const Landing = () => {
 
   return (
     <div className="landing">
-      <video id="hero-video" loop autoPlay>
+      <video id="hero-video" loop autoPlay muted>
         <source src={heroVideo} type="video/mp4" />
         <source src={heroVideo} type="video/ogg" />
         Your browser does not support the video tag.
@@ -32,7 +32,9 @@ const Landing = () => {
           Wei | <Typer></Typer>
           <Badge variant="secondary">DEV</Badge>
         </h1>
-        <p>Passion . Reality . Creation</p>
+        <div className="landing__subhead">
+          <p>Passion . Reality . Creation</p>
+        </div>
         <a href={pdfs.resume} className="btn btn-lg btn-outline-light">
           Resume
         </a>

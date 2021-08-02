@@ -43,7 +43,7 @@
   width: 60%;
   margin-left: 50%;
   transform: translateX(-50%);
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .description-box h1 {
@@ -57,6 +57,19 @@
 }
 
 .badge-secondary {
-  margin-left: 5%;
+  margin-left: 2%;
   animation: blink 1s infinite alternate;
+}
+
+@media only screen and (max-width: 480px) {
+  .description-box h1 {
+    font-size: 2rem;
+    margin-bottom: 25%;
+  }
+  .description-box {
+    padding-top: 35%;
+  }
+  .landing__subhead {
+    display: none;
+  }
 }
